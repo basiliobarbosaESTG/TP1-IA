@@ -1,0 +1,7 @@
+# O jogo do dipolo, também conhecido como jogo do barco a remo, é um jogo clássico de estratégia para dois jogadores. O objetivo do jogo é capturar todas as peças do adversário, movendo seu "dipolo" (um conjunto de duas peças) pelo tabuleiro. Cada jogador começa com um dipolo posicionado em uma das extremidades do tabuleiro e se movimenta alternadamente uma das peças do dipolo em qualquer direção (diagonal, horizontal ou vertical) para uma casa vazia. O dipolo não pode pular outras peças e não pode se mover para fora do tabuleiro. Uma peça é capturada quando o dipolo do adversário a cerca nas duas extremidades.
+# Para implementar o jogo do dipolo em Python, podemos seguir as seguintes etapas:
+# Definir o tabuleiro do jogo como uma matriz 8x8 (ou qualquer outro tamanho desejado), onde cada elemento representa uma casa vazia, uma peça do jogador 1 ou uma peça do jogador 2.
+# Definir uma função que recebe o tabuleiro atual e o movimento a ser realizado pelo jogador (uma peça do dipolo e uma nova posição) e retorna o novo tabuleiro após a jogada, se a jogada for válida, ou uma mensagem de erro, se a jogada for inválida.
+# Definir uma função que verifica se um jogador ganhou (ou seja, se todas as peças do adversário foram capturadas) e retorna o número do jogador vencedor ou zero se o jogo ainda estiver em andamento.
+# Definir uma função principal que executa o jogo, pedindo ao jogador atual para fazer um movimento válido até que um jogador vença ou o jogo termine empatado.
+# Aqui está uma possível implementação em Python do jogo do dipolo:
