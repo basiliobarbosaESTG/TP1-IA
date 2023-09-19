@@ -1,0 +1,190 @@
+Microsoft Windows [Version 10.0.19045.3448]
+(c) Microsoft Corporation. Todos os direitos reservados.
+
+C:\Users\Basilio Barbosa\Desktop\IA\TP1>git init
+Initialized empty Git repository in C:/Users/Basilio Barbosa/Desktop/IA/TP1/.git/
+
+C:\Users\Basilio Barbosa\Desktop\IA\TP1>git remote add origin https://github.com/basiliobarbosaESTG/TP1-IA.git
+
+C:\Users\Basilio Barbosa\Desktop\IA\TP1>git commit -m "first commit"
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        IPVC-EI-IA-Trab-JogoEmPython-20749-BasilioBarbosa_v1.pptx
+        prints/
+        python-dev-jogos/
+        tp1-dipole/
+        tp1.pdf
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\Basilio Barbosa\Desktop\IA\TP1>git add .
+warning: adding embedded git repository: python-dev-jogos/ai-solve-games
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint:
+hint:   git submodule add <url> python-dev-jogos/ai-solve-games
+hint:
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint:
+hint:   git rm --cached python-dev-jogos/ai-solve-games
+hint:
+hint: See "git help submodule" for more information.
+
+C:\Users\Basilio Barbosa\Desktop\IA\TP1>git rm --cached python-dev-jogos/ai-solve-games
+error: the following file has staged content different from both the
+file and the HEAD:
+    python-dev-jogos/ai-solve-games
+(use -f to force removal)
+
+C:\Users\Basilio Barbosa\Desktop\IA\TP1>git rm --cached -f python-dev-jogos/ai-solve-games
+rm 'python-dev-jogos/ai-solve-games'
+
+C:\Users\Basilio Barbosa\Desktop\IA\TP1>git commit --amend
+fatal: You have nothing to amend.
+
+C:\Users\Basilio Barbosa\Desktop\IA\TP1>git ls-files
+IPVC-EI-IA-Trab-JogoEmPython-20749-BasilioBarbosa_v1.pptx
+prints/1.png
+prints/10-1-minimax.png
+prints/10-2-minimax.png
+prints/10-minimax.png
+prints/11.png
+prints/2.png
+prints/20.png
+prints/3.png
+prints/4.png
+prints/5.png
+prints/6.png
+prints/7.png
+prints/8.png
+prints/9-2-greedy.png
+prints/9-3-greedy.png
+prints/9-4-greedy.png
+prints/9-5-greedy.png
+prints/9-greedy.png
+prints/codigo1.png
+prints/codigo2.png
+prints/codigo3.png
+prints/codigo4.png
+tp1-dipole/.vscode/settings.json
+tp1-dipole/checkers/checker.py
+tp1-dipole/checkers/game_stats.json
+tp1-dipole/checkers2/checkers.py
+tp1-dipole/dipole.txt
+tp1-dipole/dipoleCheckers.py
+tp1-dipole/dipoleCheckers10.py
+tp1-dipole/dipoleCheckers11.py
+tp1-dipole/dipoleCheckers12.py
+tp1-dipole/dipoleCheckers13.py
+tp1-dipole/dipoleCheckers14.py
+tp1-dipole/dipoleCheckers15.py
+tp1-dipole/dipoleCheckers16.py
+tp1-dipole/dipoleCheckers17.py
+tp1-dipole/dipoleCheckers18.py
+tp1-dipole/dipoleCheckers19.py
+tp1-dipole/dipoleCheckers2.py
+tp1-dipole/dipoleCheckers20.py
+tp1-dipole/dipoleCheckers21.py
+tp1-dipole/dipoleCheckers6.py
+tp1-dipole/dipoleCheckers7.py
+tp1-dipole/dipoleCheckers8.py
+tp1-dipole/dipoleCheckers9.py
+tp1-dipole/tictactoe.py
+tp1.pdf
+
+C:\Users\Basilio Barbosa\Desktop\IA\TP1>git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+C:\Users\Basilio Barbosa\Desktop\IA\TP1>git push --set-upstream origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/basiliobarbosaESTG/TP1-IA.git'
+
+C:\Users\Basilio Barbosa\Desktop\IA\TP1>git commit -m "teste"
+[master (root-commit) 683305d] teste
+ 48 files changed, 4385 insertions(+)
+ create mode 100644 IPVC-EI-IA-Trab-JogoEmPython-20749-BasilioBarbosa_v1.pptx
+ create mode 100644 prints/1.png
+ create mode 100644 prints/10-1-minimax.png
+ create mode 100644 prints/10-2-minimax.png
+ create mode 100644 prints/10-minimax.png
+ create mode 100644 prints/11.png
+ create mode 100644 prints/2.png
+ create mode 100644 prints/20.png
+ create mode 100644 prints/3.png
+ create mode 100644 prints/4.png
+ create mode 100644 prints/5.png
+ create mode 100644 prints/6.png
+ create mode 100644 prints/7.png
+ create mode 100644 prints/8.png
+ create mode 100644 prints/9-2-greedy.png
+ create mode 100644 prints/9-3-greedy.png
+ create mode 100644 prints/9-4-greedy.png
+ create mode 100644 prints/9-5-greedy.png
+ create mode 100644 prints/9-greedy.png
+ create mode 100644 prints/codigo1.png
+ create mode 100644 prints/codigo2.png
+ create mode 100644 prints/codigo3.png
+ create mode 100644 prints/codigo4.png
+ create mode 100644 tp1-dipole/.vscode/settings.json
+ create mode 100644 tp1-dipole/checkers/checker.py
+ create mode 100644 tp1-dipole/checkers/game_stats.json
+ create mode 100644 tp1-dipole/checkers2/checkers.py
+ create mode 100644 tp1-dipole/dipole.txt
+ create mode 100644 tp1-dipole/dipoleCheckers.py
+ create mode 100644 tp1-dipole/dipoleCheckers10.py
+ create mode 100644 tp1-dipole/dipoleCheckers11.py
+ create mode 100644 tp1-dipole/dipoleCheckers12.py
+ create mode 100644 tp1-dipole/dipoleCheckers13.py
+ create mode 100644 tp1-dipole/dipoleCheckers14.py
+ create mode 100644 tp1-dipole/dipoleCheckers15.py
+ create mode 100644 tp1-dipole/dipoleCheckers16.py
+ create mode 100644 tp1-dipole/dipoleCheckers17.py
+ create mode 100644 tp1-dipole/dipoleCheckers18.py
+ create mode 100644 tp1-dipole/dipoleCheckers19.py
+ create mode 100644 tp1-dipole/dipoleCheckers2.py
+ create mode 100644 tp1-dipole/dipoleCheckers20.py
+ create mode 100644 tp1-dipole/dipoleCheckers21.py
+ create mode 100644 tp1-dipole/dipoleCheckers6.py
+ create mode 100644 tp1-dipole/dipoleCheckers7.py
+ create mode 100644 tp1-dipole/dipoleCheckers8.py
+ create mode 100644 tp1-dipole/dipoleCheckers9.py
+ create mode 100644 tp1-dipole/tictactoe.py
+ create mode 100644 tp1.pdf
+
+C:\Users\Basilio Barbosa\Desktop\IA\TP1>git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+C:\Users\Basilio Barbosa\Desktop\IA\TP1>git push --set-upstream origin master
+Enumerating objects: 55, done.
+Counting objects: 100% (55/55), done.
+Delta compression using up to 20 threads
+Compressing objects: 100% (53/53), done.
+Writing objects: 100% (55/55), 2.17 MiB | 3.53 MiB/s, done.
+Total 55 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/basiliobarbosaESTG/TP1-IA.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+C:\Users\Basilio Barbosa\Desktop\IA\TP1>
